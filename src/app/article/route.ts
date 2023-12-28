@@ -1,11 +1,10 @@
-import { NextApiRequest } from 'next'
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import natural from 'natural'
 
 import { articleMock } from '../../../mock/article'
 import { normalizeText } from '@/utils/formatter'
 
-export async function GET(req: NextApiRequest) {
+export async function GET(req: NextRequest) {
   const stemmer = natural.PorterStemmerPt
 
   const articleContent = articleMock.content.map((chunk) => {
