@@ -9,6 +9,8 @@ Esse projeto me permitiu aprender muito sobre como lidar com linguagem natural, 
 
 Fique a vontade para contribuir ao projeto, ficarei muito feliz com o seu apoio! Caso saiba alguma biblioteca para lidar com linguagem natural na lingua portuguesa que funcione diretamente no navegador, ficarei muito grato!
 
+Acesse a versão em produção através [clicando aqui](https://artigo-clone.vercel.app/) ou na imagem a seguir:
+
 [![Artigo-clone](https://i.imgur.com/8Rpyiur.png)](https://artigo-clone.vercel.app/)
 
 ## Stack utilizada
