@@ -8,12 +8,7 @@ type AlphaProps = {
 export function Alpha({ alpha, visible }: AlphaProps) {
   const [lengthVisible, setLengthVisible] = useState(false)
 
-  const punctuationList = '{}()\\[\\]\\\\.…,;:!¡?¿/@#%\\^&*_—~+\\-=<>«»"\'’\\s'
-  const separatorRegex = new RegExp(`([${punctuationList}\\d]+)`, 'gim')
-
-  const isWord = !alpha.match(separatorRegex)
-
-  return visible || !isWord ? (
+  return visible ? (
     <span>{alpha}</span>
   ) : (
     <span
