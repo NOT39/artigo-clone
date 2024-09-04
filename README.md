@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Artigo Clone
 
-First, run the development server:
+Replica do jogo [Artigo.app](https://artigo.app/). 
+O projeto se baseia em um jogo de adivinhação, onde será apresentado um artigo e seu objetivo é tentar adivinhar o título desse artigo.
+Esse projeto me permitiu aprender muito sobre como lidar com linguagem natural, pude explorar diversas soluções e no final, a biblioteca escolhida foi o natural.
+Fique a vontade para contribuir ao projeto, ficarei muito feliz com o seu apoio! Caso saiba alguma biblioteca para lidar com linguagem natural na lingua portuguesa que funcione diretamente no navegador, ficarei muito grato!
+
+[![Artigo-clone](https://i.imgur.com/8Rpyiur.png)](https://artigo-clone.vercel.app/)
+
+## Stack utilizada
+
+**Front-end:** Next.JS, TailwindCSS, RadixUI, Axios e TypeScript
+
+**Back-end:** Natural, Next.JS, PrismaJS, PostgreSQL e TypeScript
+
+## Instalação
+
+Instale my-project com npm, yarn, pnpm ou bun
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm install
+  yarn install
+  pnpm install
+  bun install
+```
+    
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/NOT39/artigo-clone.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd artigo-clone
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
