@@ -19,7 +19,7 @@ export function Alpha({ alpha, visible }: AlphaProps) {
       } cursor-pointer`}
       onClick={() => setLengthVisible((prevValue) => !prevValue)}
     >
-      {!visible ? '█'.repeat(alpha.length) : alpha}
+      {'█'.repeat(alpha.length)}
     </span>
   )
 }

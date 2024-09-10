@@ -111,18 +111,9 @@ export function ArticleContextProvider({
           return {
             ...chunk,
             text: chunk.text.map((alpha) => {
-              const punctuationList =
-                '{}()\\[\\]\\\\.…,;:!¡?¿/@#%\\^&*_—~+\\-=<>«»"\'’\\s'
-              const separatorRegex = new RegExp(
-                `([${punctuationList}\\d]+)`,
-                'gim',
-              )
-
-              const isWord = !alpha.text.match(separatorRegex)
-
               return alpha.token !== stemmedWord
                 ? alpha
-                : { ...alpha, isVisible: !isWord }
+                : { ...alpha, isVisible: true }
             }),
           }
         }),
